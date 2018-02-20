@@ -1,0 +1,18 @@
+h1
+{
+	font-family:"Monotype Corsiva";
+	color:#00F;
+	font-weight:bolder;
+	text-align:center;
+}
+body
+{
+	background-image:url(j.jpg);
+	background-repeat:no-repeat;
+}
+p
+{
+	font-size:larger;
+	color:#F00;
+	text-align:center;
+}

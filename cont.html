@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Contact Us</title>
+<script>
+function a(){
+	if(document.form.name.value==""){
+		alert("Name cannot be left blank");}
+		else if(document.form.email.value==""){
+			alert("E-mail cannot be left blank");}
+			else{
+				alert("Form Submitted Successfully");}
+		}
+		function b(){
+	if(document.f.name.value==""){
+		alert("Name cannot be left blank");}
+		else if(document.f.email.value==""){
+			alert("E-mail cannot be left blank");}
+			else if(document.form.type.value==""){
+			alert("You need to enter the type");
+			}
+			else{
+				alert("Form Submitted Successfully");}
+		}
+</script>
+</head>
+
+<body style="background-image:url(j.jpg); background-size:100%; background-attachment:fixed;" >
+<h3><a href="intro.html">Back To Home</a></h3>
+<h1 align="center"><u>Contact Us</u></h1>
+<div style="margin-left:30%; margin-right:30%; ">
+<h2 align="center">In case  of any dicrepancy found in the data, you can contact us. We will reach you as soon as possible.</h2>
+<fieldset>
+<form name="form">
+<h3>Name:</h3>
+<input type="text" name="name" placeholder="Enter your Name" />
+<h3>E-mail ID:</h3>
+<input type="email" name="email" placeholder="Enter your E-mail Address" />
+<h3>Any Dicrepancy Found:</h3>
+<textarea name="disp" rows="6" cols="50"></textarea><br /><br />
+<center><input type="submit" value="Submit" onclick="a();"  /></center>
+</form>
+</fieldset>
+<p style="font-size:24px;">In case you want to add any post or data, you can fill the below form:</p>
+<fieldset>
+<form name="f">
+<h3>Name:</h3>
+<input type="text" name="name" placeholder="Enter your Name" />
+<h3>E-mail ID:</h3>
+<input type="email" name="email" placeholder="Enter your E-mail Address" />
+<h3>Your Post is Regarding:</h3>
+<input type="radio" name="type" />HTML
+<input type="radio" name="type" />CSS
+<h3>Your Post:</h3>
+<textarea rows="6" cols="50"></textarea><br /><br />
+<center><input type="submit" value="Submit" onclick="b();"  /></center>
+</form>
+</fieldset>
+</div>
+<br />
+<div style="height:50px; background-color:#900; color:#FFF; text-align:center; font-size:x-large;">
+Designed by Kashish Gupta, Hargun Singh, Karan Verma.</div>
+
+</body>
+</html>

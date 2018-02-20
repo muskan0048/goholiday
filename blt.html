@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Block Tags</title>
+</head>
+
+<body style="background-image:url(j.jpg); background-size:100%; background-attachment:fixed;" >
+<h3><a href="intro.html">Back To Home</a></h3>
+<h1 align="center"><u>Block Tags</u></h1>
+<div style="margin-left:30%; margin-right:30%; font-size:x-large;">
+
+
+Let’s make the web page a little more eye catching by adding a large, bold heading using the heading tags:<br />
+<center><b>&lt;h1&gt;  &lt;/h1&gt;</b></center><br />
+
+Remember from the previous lesson, things which appear on web pages are enclosed between the opening and closing body tags, that also includes other tags which affect how things are seen on web pages:<br />
+
+<center><b>&lt;body&gt;
+&lt;h1&gt;Learning HTML&lt;/h1&gt;
+&lt;/body&gt;</b></center>
+<br />
+The number 1 beside the letter <b>h</b> determines how large the heading will be. Any number from 1 to 6 can be used, 1 makes the largest heading, and 6 makes the smallest.<br />
+
+Heading tags belong to what are called “block” tags. These kind of tags don’t allow any outside text to line up beside them, you will see the effect in a moment but first let’s see how our HTML file is shaping up:<br />
+
+&lt;html&gt;<br />
+
+&lt;head&gt;<br />
+&lt;title&gt;My First Webpage&lt;/title&gt;<br />
+&lt;/head&gt;<br />
+
+&lt;body&gt;<br />
+&lt;h1&gt;Learning HTML&lt;/h1&gt; Look Ma, I'm making a webpage!<br />
+&lt;/body&gt;<br />
+
+&lt;/html&gt;<br />
+
+Open your web page and this is what it should look like:<br /><br />
+<center><img src="p.jpg" /></center><br />
+See how the text outside the h1 tags is on a separate line? This is what block tags do, they force the stuff they don’t enclose to be on a separate line. Another block tag is the paragraph tag:<br />
+
+<center><b>&lt;p&gt;&lt;/p&gt;</b></center>
+Any text put between the opening and closing p tags makes one paragraph.<br />
+
+Hitting the “Enter” key has no effect on web pages, to start a new line within a paragraph the <b>br</b> tag is needed:<br />
+
+<center><b>&lt;br&gt;</b></center><br />
+The br tag is one of the few HTML tags which does not have a corresponding closing tag. These kind of tags are called “single” tags. Here is an example of how the br tag can be used in a paragraph:<br />
+
+<center><b>&lt;p&gt;Look Ma,&lt;br&gt;I’m making a webpage!&lt;/p&gt;</b></center><br />
+The result would look like this:<br />
+<pre>
+Look Ma,
+I’m making a webpage!
+</pre><br /><br /></div>
+<div style="height:50px; background-color:#900; color:#FFF; text-align:center; font-size:x-large;">
+Designed by Kashish Gupta, Hargun Singh, Karan Verma.</div>
+
+</body>
+</html>

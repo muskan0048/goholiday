@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Inline Tags</title>
+</head>
+
+<body style="background-image:url(j.jpg); background-size:100%; background-attachment:fixed;" >
+<h3><a href="intro.html">Back To Home</a></h3>
+<h1 align="center"><u>Inline Tags</u></h1>
+<div style="margin-left:30%; margin-right:30%; font-size:x-large">
+
+
+Words within a sentence or paragraph can be made bold with the <b>strong</b> tag like so:<br />
+
+&lt;p&gt;
+One word in this sentence will be bold &lt;strong&gt; guess&lt;/strong&gt; which one? <br />
+&lt;/p&gt;
+<br />
+Did you pick "guess"? Then you passed the grade, give yourself a pat on the back.<br />
+
+Italicized words are made by enclosing them in <b>em</b> tags:
+
+<center><b>&lt;em&gt;</b>Your text here<b>>&lt;/em&gt;</b></center><br />
+The <b>strong</b> and <b>em</b> tags belong to a group of tags known as <i>“inline”</i> tags, these kind of tags don’t force text to start on a separate line the way block tags do. They can be used together to make text both bold and italicized:<br />
+
+<center><b>&lt;strong&gt; &lt;em&gt;</b>Your text here<b>&lt;/em&gt;&lt;/strong&gt;</b></center><br />
+It doesn’t matter which tag is used first but it is important to note that when using combination of tags their corresponding closing tag should be listed in the correct order, if the order starts with the opening em tag, it should end with the closing em tag, for example:<br />
+
+<center>this is correct - <b><em><strong>text here</strong></em></b></center><br />
+<center>this is not correct - <b>&lt;em&gt;&lt;strong&gt;text here&lt;/em&gt;&lt;/strong&gt;</b></center><br />
+
+Another inline tag is the span tag:<br />
+
+<center><b>&lt;span&gt;&lt;/span&gt;</b></center><br />
+The span tag alone doesn’t do anything but when combined with CSS it can change the appearance of text within a sentence.<br />
+</div>
+<div style="height:50px; background-color:#900; color:#FFF; text-align:center; font-size:x-large;">
+Designed by Kashish Gupta, Hargun Singh, Karan Verma.</div>
+
+</body>
+</html>
